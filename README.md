@@ -45,6 +45,6 @@ Winery tour got 0 votes
 
 1 round Ended
 
-Eleceted winner is Ten pin bowling
+Elected winner is Ten pin bowling
 
 
