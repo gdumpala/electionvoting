@@ -31,7 +31,9 @@ public class ElectionCountApp {
 			//set preferences for each candidate
 			ElectionUtils.addPreference(filePath);
 
+			System.out.println("Provide each voting as per above preference in each line with no space and press Enter, once done type tally and press Enter");
 			while (console.hasNextLine()) {
+				
 				consoleInput = console.nextLine();
 				if(!consoleInput.isBlank()) {
 				if (consoleInput.equalsIgnoreCase("tally")) {
