@@ -71,7 +71,7 @@ public class ElectionCountingImpl implements ElectionCounting {
 
 			if (winner != null) {
 				isWinnerSelected = true;
-				System.out.println("Eleceted winner is " + winner.getName());
+				System.out.println("Elected winner is " + winner.getName());
 			} else {
 				eliminator = candidateQuotaAllocation.get(candidateQuotaAllocation.size() - 1);
 				round = round + 1;
